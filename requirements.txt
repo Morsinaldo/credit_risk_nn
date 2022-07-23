@@ -4,7 +4,7 @@ scipy
 numpy==1.21.5
 scikit-learn==1.0.2
 joblib
-tensorflow
+tensorflow-cpu
 uvicorn==0.17.5
 fastapi==0.74.0
 pydantic==1.9.0
