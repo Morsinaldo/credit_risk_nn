@@ -135,7 +135,7 @@ heroku run bash --app credit-risk-nn
 heroku logs
 ```
 
-## About Us
+## About Me
 My name is Morsinaldo Medeiros and I am a student of the Graduate Program in Electrical and Computer Engineering (PPGeC) at the Federal University of Rio Grande do Norte (UFRN). As the last project of the subject [EEC1509](https://github.com/ivanovitchm/ppgeecmachinelearning) - Machine Learning, course taught by [Ivanovitch Silva](https://github.com/ivanovitchm), I create a machine learning model based on good learning practices and generalization of a neural network.
 
 ## References
