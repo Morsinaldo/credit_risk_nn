@@ -1,9 +1,15 @@
-# Credit Risk Neural Netowrk
+# Credit Risk Neural Network
 
 ## Introduction
 Credit risk is something that can generate large profits or large losses depending on the size of the risk. So, to try to mitigate the risk of investors losing money, a machine learning model was created that predicts whether a person will pay back the loan on time or not. Obviously, the model is not 100% accurate, and is even a problem involving ethical issues, since a person could pay the loan strictly on time, even if the algorithm has predicted that he or she would not pay. So the model created is only for didactic and scientific purposes.
 
 The data consists of approved loans from 2007 to 2011 from [Lending Club](www.lendingclub.com), a personal loan company that matches borrowers with people who want to lend money to get a financial return on it. The dataset contains 42537 rows and 52 columns and is available on both the github directory and the [Kaggle](https://www.kaggle.com/datasets/samaxtech/lending-club-20072011-data) website.
+
+## Objectives
+
+The goal of this work is to first show the difference between the various hyperparameters, as it explains what they are. The notebooks created throughout the development of this work are available on GitHub and the artifacts generated throughout these notebooks are saved on the Weights & Biases (W&B or wand, for short) platform. The deployment of the model will be done on Heroku using FastAPI so that the community can also test and evaluate. The deploying part can be found in more detail in the [article](https://medium.com/@alessandro.pereira.700/from-classic-models-to-production-models-8d4ab873ac4d) ALESSANDRO NETO and I wrote about deploying using Decision Trees. Here we will focus more on neural network optimization. 
+
+The link to the Github repository containing the decision trees part can be found at the following link: https://github.com/Morsinaldo/credit_risk_mlops
 
 ## Model Card
 
@@ -21,7 +27,7 @@ So, in general, the notebooks used were divided into 7 parts:
   6. Training
   7. Test
 
-You can read more about the notebook walkthrough in our [Medium](https://medium.com/@alessandro.pereira.700/from-classic-models-to-production-models-8d4ab873ac4d) article
+You can read more about the notebook walkthrough in our [Medium]() article
 
 ## Anaconda Environment
 
