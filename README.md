@@ -30,6 +30,7 @@ So, in general, the notebooks used were divided into 7 parts:
   7. [Test](https://github.com/Morsinaldo/credit_risk_nn/blob/main/notebooks/7%20-%20test.ipynb)
 
 You can read more about the notebook walkthrough in our [Medium](https://medium.com/@morsinaldo.medeiros.075/learn-how-to-easily-improve-your-neural-network-in-practice-419e5402b4fa) article
+
 Link to [Heroku](https://credit-risk-nn.herokuapp.com/)
 
 ## Anaconda Environment
