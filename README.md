@@ -5,6 +5,8 @@ Credit risk is something that can generate large profits or large losses dependi
 
 The data consists of approved loans from 2007 to 2011 from [Lending Club](www.lendingclub.com), a personal loan company that matches borrowers with people who want to lend money to get a financial return on it. The dataset contains 42537 rows and 52 columns and is available on both the github directory and the [Kaggle](https://www.kaggle.com/datasets/samaxtech/lending-club-20072011-data) website.
 
+You can also check out my video in Portuguese on [loom](https://www.loom.com/share/e86f32090c9e47c69e8266cd98bafd42).
+
 ## Objectives
 
 The goal of this work is to first show the difference between the various hyperparameters, as it explains what they are. The notebooks created throughout the development of this work are available on GitHub and the artifacts generated throughout these notebooks are saved on the Weights & Biases (W&B or wandb, for short) platform. The deployment of the model will be done on Heroku using FastAPI so that the community can also test and evaluate. The deploying part can be found in more detail in the [article](https://medium.com/@alessandro.pereira.700/from-classic-models-to-production-models-8d4ab873ac4d) ALESSANDRO NETO and I wrote about deploying using Decision Trees. Here we will focus more on neural network optimization. 
