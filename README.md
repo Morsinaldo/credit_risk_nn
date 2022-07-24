@@ -7,7 +7,7 @@ The data consists of approved loans from 2007 to 2011 from [Lending Club](www.le
 
 ## Objectives
 
-The goal of this work is to first show the difference between the various hyperparameters, as it explains what they are. The notebooks created throughout the development of this work are available on GitHub and the artifacts generated throughout these notebooks are saved on the Weights & Biases (W&B or wand, for short) platform. The deployment of the model will be done on Heroku using FastAPI so that the community can also test and evaluate. The deploying part can be found in more detail in the [article](https://medium.com/@alessandro.pereira.700/from-classic-models-to-production-models-8d4ab873ac4d) ALESSANDRO NETO and I wrote about deploying using Decision Trees. Here we will focus more on neural network optimization. 
+The goal of this work is to first show the difference between the various hyperparameters, as it explains what they are. The notebooks created throughout the development of this work are available on GitHub and the artifacts generated throughout these notebooks are saved on the Weights & Biases (W&B or wandb, for short) platform. The deployment of the model will be done on Heroku using FastAPI so that the community can also test and evaluate. The deploying part can be found in more detail in the [article](https://medium.com/@alessandro.pereira.700/from-classic-models-to-production-models-8d4ab873ac4d) ALESSANDRO NETO and I wrote about deploying using Decision Trees. Here we will focus more on neural network optimization. 
 
 The link to the Github repository containing the decision trees part can be found at the following link: https://github.com/Morsinaldo/credit_risk_mlops
 
@@ -19,13 +19,13 @@ The model was deployed to the web using the FastAPI package and API tests were c
 
 So, in general, the notebooks used were divided into 7 parts:
 
-  1. The search for data
-  2. Exploratory analysis
-  3. Pre-Processing
-  4. Tests
-  5. Splitting the data between training and testing.
-  6. Training
-  7. Test
+  1. [Fetch data](https://github.com/Morsinaldo/credit_risk_nn/blob/main/notebooks/1%20-%20fetch_data.ipynb)
+  2. [Exploratory Data Analysis (EDA)](https://github.com/Morsinaldo/credit_risk_nn/blob/main/notebooks/2%20-%20eda.ipynb)
+  3. [Pre-Processing](https://github.com/Morsinaldo/credit_risk_nn/blob/main/notebooks/3%20-%20preprocessing.ipynb)
+  4. [Data checks](https://github.com/Morsinaldo/credit_risk_nn/blob/main/notebooks/4%20-%20data_check.ipynb)
+  5. [Splitting the data between training and testing.](https://github.com/Morsinaldo/credit_risk_nn/blob/main/notebooks/5%20-%20data_segregation.ipynb)
+  6. [Train](https://github.com/Morsinaldo/credit_risk_nn/blob/main/notebooks/6%20-%20train.ipynb)
+  7. [Test](https://github.com/Morsinaldo/credit_risk_nn/blob/main/notebooks/7%20-%20test.ipynb)
 
 You can read more about the notebook walkthrough in our [Medium]() article
 
@@ -132,13 +132,12 @@ heroku logs
 ```
 
 ## About Us
-I (Morsinaldo Medeiros) and Alessandro Neto are students of the Postgraduate Program in Electrical and Computer Engineering (PPgEEC) at the Federal University of Rio Grande do Norte (UFRN). As the first project of the [EEC1509](https://github.com/ivanovitchm/ppgeecmachinelearning) — Machine Learning course taught by [Ivanovitch Silva](https://github.com/ivanovitchm), we took a classic machine learning model and adapted it to a pipeline, which contains good standardization practices in order to put the created model into production.
+My name is Morsinaldo Medeiros and I am a student of the Graduate Program in Electrical and Computer Engineering (PPGeC) at the Federal University of Rio Grande do Norte (UFRN). As the last project of the subject [EEC1509](https://github.com/ivanovitchm/ppgeecmachinelearning) - Machine Learning, course taught by [Ivanovitch Silva](https://github.com/ivanovitchm), I create a machine learning model based on good learning practices and generalization of a neural network.
 
 ## References
-
-Main reference - [Ivanovitch's git repo](https://github.com/ivanovitchm/colab2mlops)
-
-[Kaggle](https://www.kaggle.com/datasets/samaxtech/lending-club-20072011-data)
-
-[Dataquest](https://app.dataquest.io)
+Heroku: https://credit-risk-nn.herokuapp.com/
+Dataset: https://www.kaggle.com/datasets/samaxtech/lending-club-20072011-data
+Dr. Ivanovitch Silva's repository: https://github.com/ivanovitchm/ppgeecmachinelearning
+Jason Brownlee: Deep Learning for Natural Language Processing. https://machinelearningmastery.com/deep-learning-for-nlp/
+François Chollet: Deep learning with Python. https://www.amazon.com/Deep-Learning-Python-Francois-Chollet/dp/1617294438
 
